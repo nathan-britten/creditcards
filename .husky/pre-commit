@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+yarn pretty-quick --staged
+yarn lint-staged
+
+echo "running typecheck..."
+yarn typecheck
+echo "typecheck complete"
+
+yarn test:ci
