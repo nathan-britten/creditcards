@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-To get started with this project run:
+To get started with this project navigate to the root and run:
 
 ### `yarn && yarn start`
 
@@ -20,9 +20,10 @@ It also fires us the json-server on [http://localhost:3004](http://localhost:300
 
 Launches the test runner and runs the suit of tests.
 
-### `yarn cypress open`
+### `yarn cypress run`
 
-Launches Cypress and provides access to the apps E2E tests
+Launches Cypress and runs the E2E tests. \
+Make sure you have started the project with `yarn && yarn start` before running this command
 
 ### `yarn build`
 
