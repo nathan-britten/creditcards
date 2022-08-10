@@ -25,9 +25,10 @@ const filterCreditCards = (data: CreditCard[], user: User) => {
 };
 
 export const useCreditCardsQuery = (user: User) => {
-  const { annualIncome } = user;
+  const { annualIncome, employmentStatus } = user;
+
   return useQuery(
-    ["creditCards", annualIncome],
+    ["creditCards", annualIncome, employmentStatus],
     () => getCreditCards(annualIncome),
     {
       staleTime: Infinity,

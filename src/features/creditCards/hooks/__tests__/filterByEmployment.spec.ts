@@ -19,7 +19,7 @@ describe("filterByEmployment", () => {
         purchaseOffer: "0",
         creditAvailable: "300",
         employmentRestrictions: [],
-        minimumAnnualIncome: "0",
+        minimumAnnualIncome: 0,
       },
       {
         id: 3,
@@ -29,8 +29,8 @@ describe("filterByEmployment", () => {
         balanceOffer: "12",
         purchaseOffer: "6",
         creditAvailable: "3000",
-        minimumAnnualIncome: "16000",
         employmentRestrictions: [],
+        minimumAnnualIncome: 16000,
       },
     ];
     const res = filterByEmployment("partTime", testData);

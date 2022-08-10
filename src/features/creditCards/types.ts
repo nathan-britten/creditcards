@@ -6,6 +6,6 @@ export interface CreditCard {
   balanceOffer: string;
   purchaseOffer: string;
   creditAvailable: string;
-  minimumAnnualIncome: string;
+  minimumAnnualIncome: number;
   employmentRestrictions: string[];
 }

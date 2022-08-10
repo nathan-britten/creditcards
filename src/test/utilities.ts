@@ -19,7 +19,7 @@ export const testData = [
     purchaseOffer: "6",
     creditAvailable: "1200",
     employmentRestrictions: ["student"],
-    minimumAnnualIncome: "0",
+    minimumAnnualIncome: 0,
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const testData = [
     purchaseOffer: "0",
     creditAvailable: "300",
     employmentRestrictions: [],
-    minimumAnnualIncome: "0",
+    minimumAnnualIncome: 0,
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ export const testData = [
     balanceOffer: "12",
     purchaseOffer: "6",
     creditAvailable: "3000",
-    minimumAnnualIncome: "16000",
+    minimumAnnualIncome: 16000,
     employmentRestrictions: [],
   },
 ];
